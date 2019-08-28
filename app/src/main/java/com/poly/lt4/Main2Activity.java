@@ -3,6 +3,7 @@ package com.poly.lt4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
     boolean c;
@@ -11,7 +12,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-
+        Toast.makeText(this, "abcd", Toast.LENGTH_SHORT).show();
 
     }
 }
