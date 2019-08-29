@@ -12,9 +12,5 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        Toast.makeText(this, "văn", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "ừ", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "abcd", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "abc", Toast.LENGTH_SHORT).show();
     }
 }
