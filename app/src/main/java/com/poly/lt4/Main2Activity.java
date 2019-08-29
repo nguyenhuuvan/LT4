@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
     boolean c;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,6 +16,7 @@ public class Main2Activity extends AppCompatActivity {
         Toast.makeText(this, "văn", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "ừ", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "abcde", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "abc", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "abc", Toast.LENGTH_SHORT).show();
     }
 }
